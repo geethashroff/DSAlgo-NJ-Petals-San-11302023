@@ -11,7 +11,7 @@ import io.cucumber.junit.Cucumber;
 	@CucumberOptions(
 			plugin = {"pretty", "html:target/sange.html"}, //reporting purpose
 			monochrome=false,  //console output color
-<<<<<<< HEAD
+
 			tags = "", //tags from feature file @signin
 			features = {"src/test/resources/features/"}, //location of feature files
 			//features= {"07Stack , "02DSDataStructure.feature" , 08Queue.feature, 05Arrays, 01DSHome.feature, 03signin.feature, 06Linkedlist,09Tree,10Graph},
